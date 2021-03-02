@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace KimsijunPortfolio.Interface
+namespace KimsijunPortfolio.Module
 {
-    public interface IEmailSender
+    public class User
     {
-        public void SendEmail();
+        public string LoginName { get; set; }
     }
 }
